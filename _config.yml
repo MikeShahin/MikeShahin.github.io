@@ -1,11 +1,11 @@
 # Site settings
 author: Mike Shahindoust
-title: 
+title: Learning how to software blog
 header-img: img/home-bg.png
 email: gobias101@gmail.com
 copyright_name: Mike Shahindoust
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Flatiron school blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  MikeShahin

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "HTTP and BCrypt"
-date:       2020-11-28 23:19:50 +0000
+title:      "HTTP and bcrypt"
+date:       2020-11-28 18:19:50 -0500
 permalink:  http_and_bcrypt
 ---
 
@@ -68,4 +68,4 @@ Bcrypt also provides various methods to allow the app to authorize users. I used
 
 This method checks the authentication of the user and if valid stores their identity in the session cookie. The POST request first tries to find the user based on the username, if the user exists then bcrypt's built in 'authenticate' method authenticates them using the password provided in the form. The 'authenticate' method works by returning a false value if the password does not match, otherwise it returns the user instance and the next line of code will store their id in the session cookie before redirecting them to the user dashboard. 
 
-This blog gave a technical overview on why my app required sessions to persist data due to HTTP being a stateless protocal and went into the details of how I used bcrypt to secure user passwords and authenticate the user on login. 
+This blog gave a technical overview on why my app required sessions to persist data due to HTTP being a stateless protocol and went into the details of how I used bcrypt to secure user passwords and authenticate the user on login. 
